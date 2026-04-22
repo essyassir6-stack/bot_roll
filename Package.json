@@ -1,0 +1,16 @@
+{
+  "name": "discord-role-bot",
+  "version": "1.0.0",
+  "description": "A clean Discord bot for role selection via buttons",
+  "main": "discord-role-bot.js",
+  "scripts": {
+    "start": "node discord-role-bot.js",
+    "dev": "nodemon discord-role-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

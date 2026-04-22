@@ -12,7 +12,7 @@ const { Client, GatewayIntentBits, ActionRowBuilder, ButtonBuilder, ButtonStyle,
 
 const CONFIG = {
     // Bot Token - Get from https://discord.com/developers/applications
-    TOKEN: 'YOUR_BOT_TOKEN_HERE',
+   TOKEN: process.env.TOKEN,
     
     // Server Information
     SERVER_NAME: 'GLORIA Community Xx',
